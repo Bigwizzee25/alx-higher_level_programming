@@ -6,5 +6,4 @@ def islower(c):
   # Check if the ASCII code is between 97 and 122.
   # These are the ASCII codes for lowercase characters.
   return 97 <= ascii_code <= 122
-
-print(islower('a'))
+print("a is {}".format("lower" if islower("a") else "upper"))

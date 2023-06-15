@@ -1,8 +1,9 @@
-
 def islower(c):
-    Argsc = 'c'
-    ascii_code = ord(c)
-    for i in range(97, 123):
-        if islower(c):
-            print("a is{}".format("lower" if islower("a") else "upper"))
-        
+  # Get the ASCII code of the character.
+  ascii_code = ord(c)
+
+  # Check if the ASCII code is between 97 and 122.
+  # These are the ASCII codes for lowercase characters.
+  return 97 <= ascii_code <= 122
+
+print(islower('a'))
